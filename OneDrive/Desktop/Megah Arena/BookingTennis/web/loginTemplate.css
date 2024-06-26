@@ -1,0 +1,82 @@
+body {
+    background-image: url('image/tennis.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'DAGGERSQUARE', sans-serif;
+    font-size: 20px;
+}
+
+#container {
+    width: 590px;
+}
+
+.content_box {
+    clear: both;
+    width: 530px;
+    height: 370px;
+    padding: 20px 30px;
+    background-color: rgba(255,239,239, 0.8);
+    border-radius: 10px;
+}
+
+.content_box1 {
+    clear: both;
+    width: 530px;
+    height: 450px;
+    padding: 20px 30px;
+    background-color: rgba(255,239,239, 0.8);
+    border-radius: 10px;
+}
+
+.content_box_book {
+    clear: both;
+    width: 530px;
+    height: 400px;
+    padding: 20px 30px;
+    background: #3d619c;
+    border-radius: 20px;
+}
+
+h1 {
+    padding: 50px 0;
+    font-size: 45px;
+    font-weight: normal;
+    color: white;
+}
+
+.h1_2 {
+    padding: 20px 0;
+    font-size: 45px;
+    font-weight: normal;
+    color: white;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    color: black;
+    background-color: lightgrey;
+}
+
+.container2 {
+    width: 55%;
+    height: 65%;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    background-color: #B0C4DE;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    opacity: 80%;
+}
